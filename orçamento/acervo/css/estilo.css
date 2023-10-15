@@ -1,0 +1,306 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----------INICIO DO SITE E SEUS CSS----------*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #29292b;
+}
+.draco {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo {
+    display:flex;
+    align-items:center;
+    
+}
+.menu {
+    display:flex;
+    align-items:center;
+}
+
+
+
+
+/*----------NAV NAVEGAÇÃO DE MENUS----------*/
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a17c21;
+    font-family: 'Montserrat', sans-serif;
+}
+nav .active a,
+nav a:hover {
+    background-color: #a17c21;
+    color: #FFF;
+}
+
+.Entrar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #FFF;
+    border-color: #a17c21;
+    background-color: #a17c21;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+p{
+    color: #000000;
+    margin-right: 50px;
+}
+
+/*----------BANNER DO SITE----------*/
+
+
+
+
+
+/*----------IMAGENS DO SITE----------*/
+img {
+   width: auto;
+   height: 30px;
+}
+.plano-1 {
+    width: 40px;
+    height: auto;
+}
+.plano-2 {
+    width: 15px;
+    height: auto;
+}
+
+
+
+section{
+margin-bottom: 500px;
+}
+
+
+
+
+
+
+
+
+#geral {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    background-position: left;
+    background-size: cover;
+    height: 1250px;
+}
+
+
+
+
+.artigo-titu {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+}
+.artigo-titu-texto {
+    color: #a17c21;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 6px;
+    background-color: #FFF;
+}
+.artigo-titu-barra {
+    width: 50px;
+    height: 1px;
+    background-color: #a17c21;
+    margin-top: 10px;
+    background-color: #FFF;
+}
+.input{
+    color: #555555;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-color: #fcd21d;
+    border-radius: 3px;
+    border-width: 1px;
+    width: 100%;
+}
+label{
+    color: #000;
+}
+.artigo-corpo {
+    color: #ffffff;
+}
+.todo{
+    background-color: #FFF;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.quadro {
+    width: 140px;
+    height: 140px;
+    background-color: #888888;
+    margin: 12px;
+    float: left;
+    padding-bottom: 15px;
+    display: flex;
+}
+.predes {
+    width: 300px;
+    height: auto;
+    margin: 12px;
+    float: left;
+    padding-bottom: 15px;
+    display: flex;  
+}
+
+
+
+
+
+
+
+
+article a {
+    text-decoration: none;
+}
+article .data {
+    display: flex;
+}
+article .post {
+    display: flex;
+    background-color: #888888;
+    color: #ffffff;
+    padding: 10px;
+    margin-right: 4px;
+}
+article .post-comentarios {
+    display: flex;
+    background-color:#000000;
+    color: #ffffff;
+    padding: 10px;
+}
+article .img-info {
+    margin-top: 30px;
+}
+article .img-info img {
+    width: 100%;
+    height: auto;
+}
+article .data-titulo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #a17c21;
+    font-size: 16px;
+    font-weight: bold;
+}
+article .data-resumo {
+    color: #000;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+
+.texto{
+    text-align: justify;
+}
+
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.barra {
+    width: 300px;
+    height: 1px;
+    background-color: #a17c21;
+    padding: 3px;
+}
+
+
+
+
+
+footer {
+    background-color: #1e1d1d;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -200px;
+}
+.footer-menu {
+    display: flex;
+}
+.fo-1, .fo-2, .fo-3 {
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+.fo-1 {
+    background-color: #000000;
+}
+.fo-2 {
+    background-color: #bdbdbd;
+}
+.fo-3 {
+    background-color: #363839;
+}
+.footer-area {
+    display: flex;
+}
+.area-item {
+    flex: 1;
+    color: #ffffff;
+}
+.flexcoluna {
+    flex-direction:column;
+}
+.coopy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #555555;
+    font-size: 12px;
+    margin-top: 30px;
+}
